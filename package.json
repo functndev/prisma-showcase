@@ -1,0 +1,22 @@
+{
+  "name": "prisma-showcase",
+  "version": "1.0.0",
+  "description": "prisma showcase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prisma",
+    "typescript",
+    "migrations"
+  ],
+  "author": "functn",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.8.1",
+    "prisma": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
