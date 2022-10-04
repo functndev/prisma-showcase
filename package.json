@@ -4,7 +4,14 @@
   "description": "prisma showcase",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prisma-format": "npx prisma format",
+    "prisma-db-push": "npx prisma db push",
+    "prisma-migrate-dev": "npx prisma migrate dev",
+    "prisma-migrate-dev-create": "npx prisma migrate dev --create-only",
+    "prisma-migrate-reset": "npx prisma migrate reset",
+    "prisma-migrate-deploy": "npx prisma migrate deploy",
+    "prisma-db-seed": "npx prisma db seed",
+    "prisma-studio": "npx prisma studio"
   },
   "keywords": [
     "prisma",
